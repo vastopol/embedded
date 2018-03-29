@@ -1,0 +1,13 @@
+serial connection speeds
+--------------------------
+
+* 9600 baud
+- tiny basic plus
+- finf
+
+* 19200 baud
+- yaffa
+
+* 57600 baud
+- bitlash
+- arduino shell 
