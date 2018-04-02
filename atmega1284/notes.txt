@@ -1,0 +1,27 @@
+// set up ports
+// must be done at top of main()
+
+DDRX = 0x00; PORTX = 0xFF; // Configure port X's 8 pins as inputs,
+DDRX = 0xFF; PORTX = 0x00; // Configure port X's 8 pins as output,
+
+//-----------------------------------------------------------------------------
+
+// read inputs
+// can read pins regularly when using the simulator
+// must bitwise not the input pins with the atmega 1284 chip
+
+unsigned char tmpA = ~PINA;
+
+//-----------------------------------------------------------------------------
+
+// timer setting and use
+// must be done at top of main()
+
+TimerOn();
+TimerSet(unsigned long);
+
+//-----------------------------------------------------------------------------
+
+// ...
+
+concurrent synchronus state machines -> scheduler
