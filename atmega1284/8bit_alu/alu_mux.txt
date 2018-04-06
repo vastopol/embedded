@@ -1,0 +1,25 @@
+alu mux setup
+-------------
+0.  F
+1.  T
+2.  A
+3.  B
+4.  NOTA
+5.  NOTB
+6.  OR
+7.  AND
+8.  XOR
+9.  NOR
+10. NAND
+11. XNOR
+12. INCA
+13. DECA
+14. NEGA
+15. INCB
+16. DECB
+17. NEGB
+18. ADD
+19. SUB
+20. MUL
+21. DIV
+22. MOD
